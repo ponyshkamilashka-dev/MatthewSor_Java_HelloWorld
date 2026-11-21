@@ -1,7 +1,10 @@
+package syntax;
+
 public class Main {
 
     /* шо я тут забыл?!
     Приветик, мэн
+
      */
     public static void main(String[] args) {
 
