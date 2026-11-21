@@ -1,4 +1,4 @@
-package syntax;
+package syntax.Lesson2;
 
 public class Main {
 
