@@ -31,6 +31,9 @@ public class Variables {
         System.out.println("Float: "+FloatNumber);
         System.out.println("Double: "+DoubleNumber);
 
+        System.out.println(Double.POSITIVE_INFINITY);
+        System.out.println(Double.NEGATIVE_INFINITY);
+
 
     }
 
