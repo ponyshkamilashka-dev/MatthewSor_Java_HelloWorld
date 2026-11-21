@@ -57,6 +57,16 @@ public class Variables {
         System.out.println(L1);
         System.out.println(L2);
 
+        //casting
+        short varAge= age;
+        System.out.println(varAge);
+
+        int Int_varAge= varAge;
+        System.out.println(Int_varAge);
+
+        int BadCasting= -32768;
+        byte ByteVeryBad=(byte) BadCasting;
+
 
     }
 
