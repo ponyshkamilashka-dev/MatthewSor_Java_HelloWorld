@@ -24,6 +24,13 @@ public class Variables {
         // double= 8 bytes
         double DoubleNumber= 5.78;
 
+        char CharSymbol='C';
+
+        boolean BoolVariable= false;
+        boolean BoolVarF= true;
+
+        var Figushki= 200L;
+
         System.out.println("Byte: "+age);
         System.out.println("Short: "+ShortNumber);
         System.out.println("Int: "+IntNumber);
@@ -33,6 +40,22 @@ public class Variables {
 
         System.out.println(Double.POSITIVE_INFINITY);
         System.out.println(Double.NEGATIVE_INFINITY);
+        System.out.println(Double.isNaN(1000/0.0));
+        System.out.println(Double.isNaN(1000/10.0));
+
+        System.out.println("Char: "+CharSymbol);
+
+        System.out.println(BoolVariable);
+        System.out.println(BoolVarF);
+
+        System.out.println(Figushki);
+
+        short L1, L2;
+        L1 = 20;
+        L2 = 30;
+
+        System.out.println(L1);
+        System.out.println(L2);
 
 
     }
