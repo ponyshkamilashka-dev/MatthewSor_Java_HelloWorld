@@ -66,6 +66,7 @@ public class Variables {
 
         int BadCasting= -32768;
         byte ByteVeryBad=(byte) BadCasting;
+        System.out.println(ByteVeryBad);
 
 
     }
